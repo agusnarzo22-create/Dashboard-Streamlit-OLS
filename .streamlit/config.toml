@@ -1,0 +1,15 @@
+# Konfigurasi Streamlit — dipakai otomatis baik saat lokal maupun di Streamlit Cloud.
+# Tema dibuat "light" agar serasi dengan warna grafik Plotly yang berlatar putih.
+
+[theme]
+base = "light"
+primaryColor = "#2e7d32"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8fafc"
+textColor = "#0f172a"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
